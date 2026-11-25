@@ -1,0 +1,20 @@
+{
+  "name": "fibula-guide-planner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "浏览器内腓骨瓣重建规划与截骨导板设计系统 (TypeScript + WebGL2)",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.5"
+  }
+}
